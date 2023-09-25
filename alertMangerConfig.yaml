@@ -14,11 +14,11 @@ spec:
   receivers:
     - name: 'email-notifications'
       emailConfigs:
-        - to: 'abdallahmahdyyy@gmail.com'
-          from: 'testingfeature101@gmail.com'
+        - to: 'enter your first email (will be prometheus email)'
+          from: 'enter the target email (prometheus will sent alerts to this email from the previous email)'
           smarthost: 'smtp.gmail.com:587'
-          authUsername: 'testingfeature101@gmail.com'
-          authIdentity: 'testingfeature101@gmail.com'
+          authUsername: 'first email'
+          authIdentity: 'first email'
           authPassword:
             name: gmail-auth
             key: password
